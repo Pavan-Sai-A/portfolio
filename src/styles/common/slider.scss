@@ -1,0 +1,52 @@
+.slider {
+  --totSlides: 5;
+  --slideWidth: 200px;
+  --slideHeight: 100px;
+  --animationSpeed: calc(2s * var(--totSlides));
+  height: var(--slideHeight);
+}
+
+/* Fade effect on left and right */
+.slider::before,
+.slider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 10%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.slider .slides-track {
+  width: calc(var(--slideWidth) * var(--totSlides) * 2);
+  animation: scroll var(--animationSpeed) linear infinite;
+}
+.slider .slides-track-reverse {
+  width: calc(var(--slideWidth) * var(--totSlides) * 2);
+  animation: scroll-reverse var(--animationSpeed) linear infinite;
+}
+
+.slider .slide {
+  width: var(--slideWidth);
+  height: var(--slideHeight);
+}
+
+/* Infinite scrolling animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(var(--slideWidth) * var(--totSlides) * -1));
+  }
+}
+
+@keyframes scroll-reverse {
+  0% {
+    transform: translateX(calc(var(--slideWidth) * var(--totSlides) * -1));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,246 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../../assets/fonts/icomoon.eot?cdumvr");
+  src: url("../../assets/fonts/icomoon.eot?cdumvr#iefix")
+      format("embedded-opentype"),
+    url("../../assets/fonts/icomoon.ttf?cdumvr") format("truetype"),
+    url("../../assets/fonts/icomoon.woff?cdumvr") format("woff"),
+    url("../../assets/fonts/icomoon.svg?cdumvr#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-copyright:before {
+  content: "\e926";
+}
+.icon-sun-o:before {
+  content: "\e92d";
+}
+.icon-moon-o:before {
+  content: "\e92c";
+}
+.icon-paper-plane-o:before {
+  content: "\e923";
+}
+.icon-send-o:before {
+  content: "\e923";
+}
+.icon-paperplane:before {
+  content: "\e924";
+}
+.icon-send:before {
+  content: "\e924";
+}
+.icon-flight:before {
+  content: "\e924";
+}
+.icon-email:before {
+  content: "\e924";
+}
+.icon-study:before {
+  content: "\e920";
+}
+.icon-graduation:before {
+  content: "\e920";
+}
+.icon-hat:before {
+  content: "\e920";
+}
+.icon-college:before {
+  content: "\e920";
+}
+.icon-angular:before {
+  content: "\e901";
+  color: #dd0031;
+}
+.icon-azuredevops:before {
+  content: "\e902";
+  color: #0078d7;
+}
+.icon-bootstrap:before {
+  content: "\e900";
+  color: #563d7c;
+}
+.icon-css3:before {
+  content: "\e903";
+  color: #1572b6;
+}
+.icon-csswizardry:before {
+  content: "\e904";
+  color: #f43059;
+}
+.icon-evernote:before {
+  content: "\e905";
+  color: #00a82d;
+}
+.icon-firebase:before {
+  content: "\e921";
+  color: #ffca28;
+}
+.icon-git:before {
+  content: "\e906";
+  color: #f05032;
+}
+.icon-github:before {
+  content: "\e922";
+}
+.icon-gmail:before {
+  content: "\e907";
+  color: #d14836;
+}
+.icon-google:before {
+  content: "\e92a";
+  color: #4285f4;
+}
+.icon-googleanalytics:before {
+  content: "\e92b";
+  color: #ffc107;
+}
+.icon-graphql:before {
+  content: "\e908";
+  color: #e10098;
+}
+.icon-html5:before {
+  content: "\e909";
+  color: #e34f26;
+}
+.icon-instagram:before {
+  content: "\e90a";
+  color: #e4405f;
+}
+.icon-javascript:before {
+  content: "\e90b";
+  color: #f7df1e;
+}
+.icon-linkedin:before {
+  content: "\e90c";
+  color: #0077b5;
+}
+.icon-mongodb:before {
+  content: "\e90d";
+  color: #47a248;
+}
+.icon-mysql:before {
+  content: "\e927";
+  color: #4479a1;
+}
+.icon-next-dot-js:before {
+  content: "\e90e";
+}
+.icon-node-dot-js:before {
+  content: "\e90f";
+  color: #393;
+}
+.icon-nodemon:before {
+  content: "\e910";
+  color: #76d04b;
+}
+.icon-npm:before {
+  content: "\e911";
+  color: #cb3837;
+}
+.icon-postgresql:before {
+  content: "\e928";
+  color: #336791;
+}
+.icon-postman:before {
+  content: "\e929";
+  color: #ff6c37;
+}
+.icon-react:before {
+  content: "\e912";
+  color: #61dafb;
+}
+.icon-redux:before {
+  content: "\e913";
+  color: #764abc;
+}
+.icon-sass:before {
+  content: "\e914";
+  color: #c69;
+}
+.icon-sonarlint:before {
+  content: "\e915";
+  color: #cc2026;
+}
+.icon-steem:before {
+  content: "\e916";
+  color: #4ba2f2;
+}
+.icon-tailwindcss:before {
+  content: "\e917";
+  color: #38b2ac;
+}
+.icon-telegram:before {
+  content: "\e918";
+  color: #2ca5e0;
+}
+.icon-x:before {
+  content: "\e919";
+}
+.icon-typescript:before {
+  content: "\e91a";
+  color: #007acc;
+}
+.icon-visualstudiocode:before {
+  content: "\e91b";
+  color: #007acc;
+}
+.icon-vue-dot-js:before {
+  content: "\e91c";
+  color: #4fc08d;
+}
+.icon-w3c:before {
+  content: "\e91d";
+  color: #005a9c;
+}
+.icon-webpack:before {
+  content: "\e925";
+  color: #8dd6f9;
+}
+.icon-whatsapp:before {
+  content: "\e91e";
+  color: #25d366;
+}
+.icon-youtube:before {
+  content: "\e91f";
+  color: #f00;
+}
+.icon-compass:before {
+  content: "\e949";
+}
+.icon-trophy:before {
+  content: "\e99e";
+}
+.icon-briefcase:before {
+  content: "\e9ae";
+}
+.icon-sun:before {
+  content: "\e9d4";
+}
+.icon-contrast:before {
+  content: "\e9d5";
+}
+.icon-brightness-contrast:before {
+  content: "\e9d6";
+}
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
