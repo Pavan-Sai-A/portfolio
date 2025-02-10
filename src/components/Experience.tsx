@@ -8,7 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-20 w-full bg-white dark:bg-black">
+    <section id="experience" className="pt-20 w-full bg-white dark:bg-black">
       {/* Section Title */}
       <h2 className="text-4xl font-extrabold text-gray-900 dark:text-gray-100 text-center">
         Experience & Education

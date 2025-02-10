@@ -3,7 +3,7 @@ import React from "react";
 const Project = () => {
   return (
     <section
-      className="py-20 px-6 text-center  text-black  dark:text-white transition-all duration-300"
+      className="pt-20 px-6 text-center  text-black  dark:text-white transition-all duration-300"
       id="project"
     >
       <h2 className="text-4xl font-bold mb-6">Projects</h2>
@@ -16,14 +16,14 @@ const Project = () => {
         {/* Project Card */}
         {projects.map((project, index) => (
           <div
-            key={index}
+            key={index+1}
             className="w-full max-w-2xl  cursor-pointer bg-black text-white dark:bg-white dark:text-black shadow-lg rounded-xl p-6 hover:shadow-2xl transform transition-all duration-500 hover:scale-105"
           >
             <h3 className="text-2xl font-semibold">{project.title}</h3>
             <p className="mt-2">{project.description}</p>
             <ul className="mt-4 text-left space-y-2">
               {project.features.map((feature, i) => (
-                <li key={i} className="flex items-center">
+                <li key={i+1} className="flex items-center">
                   ✅ {feature}
                 </li>
               ))}
@@ -31,9 +31,9 @@ const Project = () => {
             <p className="mt-4 font-semibold">
               Technologies: {project.technologies}
             </p>
-            <button className="mt-6 w-full px-6 py-3 bg-white text-black dark:bg-black dark:text-white rounded-lg hover:bg-gray-300 dark:hover:bg-gray-700 transition-all">
-              View More
-            </button>
+              {/* <button className="mt-6 w-full px-6 py-3 bg-white text-black dark:bg-black dark:text-white rounded-lg hover:bg-gray-300 dark:hover:bg-gray-700 transition-all">
+                View More
+              </button> */}
           </div>
         ))}
       </div>
@@ -52,7 +52,7 @@ const projects = [
       "Redesigned Profile and Dealer Visit modules for responsiveness and better UX.",
     ],
     technologies:
-      "React.js, TypeScript, SCSS, RxDB, Tanstack Query, Zustand, Fullcalendar",
+      "React.js, TypeScript, SCSS, RxDB, Tanstack Query, Zustand, Full Calendar",
   },
   {
     title: "Pidilite Industries",
