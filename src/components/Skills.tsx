@@ -28,7 +28,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="py-20  text-black  dark:text-white transition-all duration-300"
+      className="pt-20  text-black  dark:text-white transition-all duration-300"
     >
       <div className="text-center">
         {/* Section Title */}

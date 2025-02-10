@@ -1,0 +1,16 @@
+.blink {
+  display: inline-block;
+  animation: blink-animation 0.8s steps(2, start) infinite;
+}
+
+@keyframes blink-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

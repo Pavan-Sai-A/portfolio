@@ -31,7 +31,7 @@ export default function ContactUsForm() {
   };
 
   return (
-    <section className="py-20 px-6 bg-white dark:bg-black w-full" id="contact">
+    <section className="pt-20 px-6 bg-white dark:bg-black w-full" id="contact">
       <div className="max-w-2xl mx-auto">
         {/* Heading */}
         <h2 className="text-3xl font-bold text-black dark:text-white text-center mb-6">

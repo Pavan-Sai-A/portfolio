@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import "@/styles/common/blink.scss";
 
 const Blog = () => {
   const typingSpeed = 100;
@@ -36,35 +37,17 @@ const Blog = () => {
   }, [text, isDeleting, index]);
   return (
     <section
-      className="flex flex-col items-center justify-center text-center py-20 px-6 sm:px-10 space-y-8  text-black dark:text-white transition-all duration-300"
+      className="flex flex-col items-center justify-center text-center pt-20  px-6 sm:px-10 space-y-8  text-black dark:text-white transition-all duration-300"
       id="home"
     >
       <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
         Hi, I’m{" "}
-        <span className="text-gray-800 dark:text-gray-200">Pavan Sai</span>
-        {""}.
+        <span className="text-gray-800 dark:text-gray-200">Pavan Sai</span>.
       </h1>
       <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 max-w-xl">
         A Web Developer specializing in{" "}
         <span className="font-semibold text-black dark:text-white">{text}</span>
         <span className="blink">|</span>
-        <style jsx>{`
-          .blink {
-            display: inline-block;
-            animation: blink-animation 0.8s steps(2, start) infinite;
-          }
-          @keyframes blink-animation {
-            0% {
-              opacity: 1;
-            }
-            50% {
-              opacity: 0;
-            }
-            100% {
-              opacity: 1;
-            }
-          }
-        `}</style>
       </p>
       <div className="flex flex-wrap justify-center gap-4">
         <button
@@ -78,7 +61,7 @@ const Blog = () => {
           Contact Me
         </button>
         <a
-          href="https://drive.google.com/file/d/14ub8JANRWB-iP9VbBEkPDJVbCIV1esp1/view?usp=sharing"
+          href="https://github.com/Pavan-Sai-A/new-portfolio/releases/download/untagged-5d32d1179dda9183ea48/Pavan_Sai_Resume.pdf"
           download="Pavan_Sai_Resume.pdf"
           className="px-6 py-3 text-lg font-medium border-2 border-black text-black rounded-xl hover:bg-black hover:text-white transition-all dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black"
         >
