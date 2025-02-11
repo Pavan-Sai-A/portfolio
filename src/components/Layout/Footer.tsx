@@ -6,9 +6,9 @@ const Footer = () => {
           © 2025 Pavan Sai. All rights reserved.
         </p>
         <nav className="flex flex-col md:flex-row md:space-x-6 space-y-2 md:space-y-0 text-sm">
-          <p className="text-sm text-gray-400 dark:text-gray-600">
-            About this website Built with Next.js, TypeScript, Tailwind CSS,
-            Vercel hosting
+          <p className="prose text-gray-700 dark:text-gray-200">
+            About this website: Built with Next.js, TypeScript, Tailwind CSS,
+            hosted on Vercel.
           </p>
         </nav>
       </div>

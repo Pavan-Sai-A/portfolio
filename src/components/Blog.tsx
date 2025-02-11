@@ -73,6 +73,7 @@ const Blog = () => {
           href="https://linkedin.com/in/pavan-sai-ande"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Visit my LinkedIn profile"
           className="transition-transform transform hover:scale-110"
         >
           <span className="icon-linkedin text-blue-600 dark:text-blue-400"></span>
@@ -81,17 +82,20 @@ const Blog = () => {
           href="https://github.com/Pavan-Sai-A"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Visit my GitHub profile"
           className="transition-transform transform hover:scale-110"
         >
           <span className="icon-github text-black dark:text-white"></span>
         </a>
         <a
-          href="mailto:pavan@example.com"
+          href="mailto:pavansai0810@gmail.com"
+          aria-label="Send me an email"
           className="transition-transform transform hover:scale-110"
         >
           <span className="icon-gmail text-red-600"></span>
         </a>
       </div>
+
       <div className="text-gray-700 dark:text-gray-300 text-base sm:text-lg leading-relaxed max-w-xl border-t border-gray-300 dark:border-gray-700 pt-4">
         <p>
           <span className="font-semibold">2+ Years Experience</span> in Frontend
