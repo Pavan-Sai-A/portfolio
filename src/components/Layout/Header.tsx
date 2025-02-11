@@ -130,8 +130,11 @@ const Header: React.FC = () => {
           <li>
             <button
               onClick={toggleDarkMode}
+              aria-label={
+                darkMode ? "Switch to light mode" : "Switch to dark mode"
+              }
               className="capitalize px-2 py-1 font-medium rounded-lg transition-all duration-300
-          text-gray-300 dark:text-gray-600 hover:text-white dark:hover:text-black"
+    text-gray-300 dark:text-gray-600 hover:text-white dark:hover:text-black"
             >
               {darkMode ? (
                 <span className="icon-sun-o"></span>
