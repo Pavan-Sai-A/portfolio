@@ -12,7 +12,7 @@ const About = () => {
 
         <p className="text-xl md:text-2xl leading-relaxed">
           I am a <span className="font-bold">Frontend Developer</span> with{''}
-          <span className="font-bold"> 2.1 years of experience</span>{''}
+          <span className="font-bold"> 2.1 years of experience</span>{' '}
           specializing in building responsive, high-performance web applications
           using
           <span className="font-semibold">
